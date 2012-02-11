@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=320; user-scalable=no"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <title>Send to darling</title>
+
+    <link href="css/jquery.mobile-1.0.1.css" rel="stylesheet"/>
+    <link href="css/photoswipe.css" rel="stylesheet"/>
+    <link href="css/jquery.mobile.simpledialog.css" rel="stylesheet"/>
+    <style>
+        .gallery { list-style: none; padding: 0; margin: 0; }
+        .gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+        .gallery li {
+            font-family: 'SansaConSoftProNormal', helvetica, arial, clean, sans-serif;
+            float: left; width: 33.33333333%;
+        }
+        .gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+        .gallery li img { display: block; width: 100%; height: auto; }
+        #Gallery1 .ui-content, #Gallery2 .ui-content { overflow: hidden; }
+        div.ui-bar-a {
+            background: -moz-linear-gradient(center top , #D9170A, red) repeat scroll 0 0 red
+        }
+
+
+    </style>
+
+    <script type="text/javascript" charset="utf-8" src="script/jquery.1.6.4.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/jquery.mobile-1.0.1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/phonegap-1.3.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/smsplugin.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="script/fetchsmsplugin.js"></script>-->
+    <script type="text/javascript" charset="utf-8" src="script/jquery.mobile.simpledialog.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind("pageinit", function(){
+
+            PhoneGap.exec(function(message) {
+                        var jsonObj = eval(message);
+                        $("#morning").html(jsonObj.morning)
+                        $("#noon").html(jsonObj.noon)
+                        $("#everning").html(jsonObj.everning)
+                    }, function(e) {
+                         alert('Message Failed:' + e);
+                    }, 'FetchSMSPlugin', "Fetch", []);
+
+            <!--$(".sms").click(function(){-->
+                <!--PhoneGap.exec(function(message) {-->
+                        <!--alert('Message sent successfully' + message);-->
+                    <!--}, function(e) {-->
+                         <!--alert('Message Failed:' + e);-->
+                    <!--}, 'FetchSMSPlugin', "Fetch", []);-->
+            <!--})-->
+        })
+
+    </script>
+
+</head>
+<body>
+<div data-role="page" id="Home">
+    <div data-role="header">
+        <h1>Send to darling</h1>
+    </div>
+    <div data-role="content">
+        <p>Click the SMS to send</p>
+        <ul data-role="listview" data-inset="true">
+            <li><a id="morning" class="sms"></a></li>
+            <li><a id="noon" class="sms"></a></li>
+            <li><a id="everning" class="sms"></a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
