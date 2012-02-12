@@ -38,16 +38,17 @@
         $(document).bind("pageinit", function(){
             PhoneGap.exec(function(message) {
                         var jsonObj = eval(message);
+                        alert(jsonObj.morning[0])
+                        alert(jsonObj.morning[1])
                     }, function(e) {
                          alert('Message Failed:' + e);
                     }, 'FetchSMSPlugin', "Fetch", []);
-
-            $(".sms").click(function(){
-                    window.plugins.sms.send("13717709061", "message", function(message) {
-                        alert('Message sent successfully' + message);
-                    }, function(e) {
-                         alert('Message Failed:' + e);
-            })
+            <!--$(".sms").click(function(){-->
+                    <!--window.plugins.sms.send("13717709061", "message", function(message) {-->
+                        <!--alert('Message sent successfully' + message);-->
+                    <!--}, function(e) {-->
+                         <!--alert('Message Failed:' + e);-->
+            <!--})-->
         })
 
     </script>

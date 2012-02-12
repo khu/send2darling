@@ -5,7 +5,6 @@ import com.phonegap.api.Plugin;
 import com.phonegap.api.PluginResult;
 import com.send2darling.R;
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -18,14 +17,10 @@ public class FetchSMSPlugin extends Plugin {
     @Override
     public PluginResult execute(String action, JSONArray arg1, String callbackId) {
         PluginResult result = new PluginResult(PluginResult.Status.INVALID_ACTION);
-        Resources resources = this.webView.getContext().getResources();
-
         if (action.equals(ACTION_SMS_CONTENT)) {
             try {
-                thingy(resources);
-                JSONObject message = new JSONObject("{morning:'good morning',noon:'good afternoon',everning:'everning'}");
-                result = new PluginResult(PluginResult.Status.OK, message);
-            } catch (JSONException ex) {
+                result = new PluginResult(PluginResult.Status.OK, buildMessage());
+            } catch (RuntimeException ex) {
                 result = new PluginResult(PluginResult.Status.JSON_EXCEPTION, ex.getMessage());
             }
         }
@@ -33,7 +28,8 @@ public class FetchSMSPlugin extends Plugin {
         return result;
     }
 
-    private JSONObject thingy(Resources resources) throws RuntimeException {
+    private JSONObject buildMessage() throws RuntimeException {
+        Resources resources = this.webView.getContext().getResources();
         InputStream morning = resources.openRawResource(R.raw.morning);
         InputStream noon = resources.openRawResource(R.raw.noon);
         InputStream evening = resources.openRawResource(R.raw.evening);
