@@ -39,7 +39,7 @@ public class SmsService extends Service {
         }
 
         if (action.equals(ACTION_START)) {
-            new AlarmHandler(this, (AlarmManager) getSystemService(ALARM_SERVICE), new AlarmTimer()).setupAlarm();
+            new AlarmHandler().configure((AlarmManager) getSystemService(ALARM_SERVICE), this);
         }
     }
 

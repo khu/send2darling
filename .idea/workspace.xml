@@ -62,16 +62,7 @@
       <file leaf-file-name="AlarmHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlarmTimer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmTimer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="672" selection-end="672" vertical-scroll-proportion="0.23219815">
+            <state line="11" column="16" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmTimerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/send2darling/AlarmTimerTest.java">
+      <file leaf-file-name="AlarmHandlerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/send2darling/AlarmHandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +90,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmsService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SmsService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/send2darling/SmsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="30" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
+            <state line="41" column="0" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.39628482">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlarmManager.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/sdk/android-sdk-macosx/platforms/android-8/android.jar!/android/app/AlarmManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,13 +136,13 @@
         <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/send2darling/SmsService.java" />
         <option value="$PROJECT_DIR$/src/com/send2darling/thisMorning.java" />
         <option value="$PROJECT_DIR$/test/com/send2darling/AlarmTimerTest.java" />
         <option value="$PROJECT_DIR$/src/com/send2darling/Send2Darling.java" />
-        <option value="$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java" />
         <option value="$PROJECT_DIR$/src/com/send2darling/NotificationHandler.java" />
         <option value="$PROJECT_DIR$/src/com/send2darling/AlarmTimer.java" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/SmsService.java" />
       </list>
     </option>
   </component>
@@ -343,12 +343,12 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="AlarmTimerTest.should_return_the_coming_noon_when_given_time_is_morning" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="AlarmHandlerTest.should_return_the_coming_noon_when_given_time_is_morning" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="send2darling" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.send2darling" />
-      <option name="MAIN_CLASS_NAME" value="com.send2darling.AlarmTimerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.send2darling.AlarmHandlerTest" />
       <option name="METHOD_NAME" value="should_return_the_coming_noon_when_given_time_is_morning" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -365,12 +365,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="AlarmTimerTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="AlarmHandlerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="send2darling" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.send2darling" />
-      <option name="MAIN_CLASS_NAME" value="com.send2darling.AlarmTimerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.send2darling.AlarmHandlerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -718,29 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/send2darling/AlarmTimerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/send2darling/SmsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/send2darling/NotificationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="59" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
@@ -748,12 +725,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmTimer.java">
+    <entry file="file://$PROJECT_DIR$/test/com/send2darling/AlarmHandlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="672" selection-end="672" vertical-scroll-proportion="0.23219815">
+        <state line="14" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdk/android-sdk-macosx/platforms/android-8/android.jar!/android/app/AlarmManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/SmsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.39628482">
+          <folding />
         </state>
       </provider>
     </entry>
