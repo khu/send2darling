@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=320; user-scalable=no"/>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="apple-mobile-web-app-capable" content="yes"/>
 
     <title>Send to darling</title>
@@ -35,23 +36,18 @@
     <script type="text/javascript" charset="utf-8" src="script/jquery.mobile.simpledialog.min.js"></script>
     <script type="text/javascript">
         $(document).bind("pageinit", function(){
-
             PhoneGap.exec(function(message) {
                         var jsonObj = eval(message);
-                        $("#morning").html(jsonObj.morning)
-                        $("#noon").html(jsonObj.noon)
-                        $("#everning").html(jsonObj.everning)
                     }, function(e) {
                          alert('Message Failed:' + e);
                     }, 'FetchSMSPlugin', "Fetch", []);
 
-            <!--$(".sms").click(function(){-->
-                <!--PhoneGap.exec(function(message) {-->
-                        <!--alert('Message sent successfully' + message);-->
-                    <!--}, function(e) {-->
-                         <!--alert('Message Failed:' + e);-->
-                    <!--}, 'FetchSMSPlugin', "Fetch", []);-->
-            <!--})-->
+            $(".sms").click(function(){
+                    window.plugins.sms.send("13717709061", "message", function(message) {
+                        alert('Message sent successfully' + message);
+                    }, function(e) {
+                         alert('Message Failed:' + e);
+            })
         })
 
     </script>
@@ -64,10 +60,20 @@
     </div>
     <div data-role="content">
         <p>Click the SMS to send</p>
-        <ul data-role="listview" data-inset="true">
-            <li><a id="morning" class="sms"></a></li>
-            <li><a id="noon" class="sms"></a></li>
-            <li><a id="everning" class="sms"></a></li>
+        <ul data-role="listview" id="morning" data-inset="true">
+            <li><a class="sms">今天天气不错</a></li>
+            <li><a class="sms">今天天气不错</a></li>
+            <li><a class="sms">今天天气不错</a></li>
+        </ul>
+        <ul data-role="listview" id="noon" data-inset="true">
+            <li><a  class="sms">今天天气不错</a></li>
+            <li><a  class="sms">今天天气不错</a></li>
+            <li><a  class="sms">今天天气不错</a></li>
+        </ul>
+        <ul data-role="listview" id="evening" data-inset="true">
+            <li><a class="sms">今天天气不错</a></li>
+            <li><a class="sms">今天天气不错</a></li>
+            <li><a class="sms">今天天气不错</a></li>
         </ul>
     </div>
 </div>

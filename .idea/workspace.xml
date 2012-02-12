@@ -59,10 +59,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SmsPlugin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/practicaldeveloper/phonegap/plugins/SmsPlugin.java">
+      <file leaf-file-name="AlarmHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="1" selection-start="1421" selection-end="2288" vertical-scroll-proportion="0.0">
+            <state line="19" column="18" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlarmTimer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="51" selection-start="672" selection-end="672" vertical-scroll-proportion="0.23219815">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,67 +79,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FetchSMSPlugin.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/send2darling/plugin/FetchSMSPlugin.java">
+      <file leaf-file-name="AlarmTimerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/send2darling/AlarmTimerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="89" selection-start="541" selection-end="694" vertical-scroll-proportion="0.8614865">
+            <state line="14" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PluginResult.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/phonegap-1.3.0.jar!/com/phonegap/api/PluginResult.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="382" selection-end="382" vertical-scroll-proportion="-5.44">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/xml/plugins.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="1164" selection-end="1178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetchsmsplugin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/script/fetchsmsplugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="104" selection-start="1155" selection-end="1248" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="60" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-5.2083335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smsplugin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/script/smsplugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phonegap-1.3.0.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/script/phonegap-1.3.0.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="593" column="87" selection-start="17709" selection-end="17713" vertical-scroll-proportion="-5.769231">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -138,16 +93,25 @@
       <file leaf-file-name="Send2Darling.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/send2darling/Send2Darling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/demo.html">
+      <file leaf-file-name="SmsService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/send2darling/SmsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="535" selection-end="535" vertical-scroll-proportion="-11.25">
+            <state line="37" column="30" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/send2darling/NotificationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="59" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,22 +127,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/www/css/jquery.mobile.simpledialog.css" />
-        <option value="$PROJECT_DIR$/assets/www/css/jquery.mobile.pagination.css" />
-        <option value="$PROJECT_DIR$/assets/www/script/jquery.mobile.pagination.js" />
-        <option value="$PROJECT_DIR$/send2darling.iml" />
-        <option value="$PROJECT_DIR$/src/com/send2darling/MyActivity.java" />
-        <option value="$PROJECT_DIR$/src/net/practicaldeveloper/phonegap/plugins/SmsPlugin.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/send2darling/WebViewDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/send2darling/Send2Darling.java" />
         <option value="$PROJECT_DIR$/assets/www/script/smscontentplugin.js" />
         <option value="$PROJECT_DIR$/src/com/send2darling/plugin/SMSContentPlugin.java" />
         <option value="$PROJECT_DIR$/res/xml/plugins.xml" />
         <option value="$PROJECT_DIR$/assets/www/script/fetchsmsplugin.js" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/src/com/send2darling/plugin/FetchSMSPlugin.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/SmsService.java" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/thisMorning.java" />
+        <option value="$PROJECT_DIR$/test/com/send2darling/AlarmTimerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/Send2Darling.java" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/NotificationHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/send2darling/AlarmTimer.java" />
       </list>
     </option>
   </component>
@@ -219,7 +183,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,10 +212,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,82 +255,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homeideas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send2darling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homeideas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send2darling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homeideas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send2darling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidTargetDevices" value="SH0CBPL00844" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/res/drawable" />
       <recent name="$PROJECT_DIR$/assets/www/script" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/www/css" />
-      <recent name="$PROJECT_DIR$/assets/www/pic/kitchen" />
-      <recent name="$PROJECT_DIR$/assets/www/pic/bedroom" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.send2darling" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Send2Darling">
@@ -405,9 +324,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -424,6 +341,50 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AlarmTimerTest.should_return_the_coming_noon_when_given_time_is_morning" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="send2darling" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.send2darling" />
+      <option name="MAIN_CLASS_NAME" value="com.send2darling.AlarmTimerTest" />
+      <option name="METHOD_NAME" value="should_return_the_coming_noon_when_given_time_is_morning" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AlarmTimerTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="send2darling" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.send2darling" />
+      <option name="MAIN_CLASS_NAME" value="com.send2darling.AlarmTimerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -555,13 +516,17 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android Application.send2darling" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.MyActivity" />
       <item index="2" class="java.lang.String" itemvalue="Android Application.Send2Darling" />
       <item index="3" class="java.lang.String" itemvalue="Android Application.WebViewDemo" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AlarmTimerTest.should_return_the_coming_noon_when_given_time_is_morning" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AlarmTimerTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -616,23 +581,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="792" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4665676" sideWeight="0.4946082" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4665676" sideWeight="0.4831057" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39970282" sideWeight="0.49748382" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39970282" sideWeight="0.40833932" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.49748382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.615156" sideWeight="0.36808053" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22358015" sideWeight="0.5319465" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22358015" sideWeight="0.5230312" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4680535" sideWeight="0.45866284" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4680535" sideWeight="0.5355859" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4769688" sideWeight="0.42127967" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4769688" sideWeight="0.5729691" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -687,108 +652,105 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/www/share.html">
+    <entry file="jar://$USER_HOME$/sdk/android-sdk-macosx/platforms/android-8/android.jar!/android/content/Intent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="868" selection-end="998" vertical-scroll-proportion="0.5436573" />
+        <state line="295" column="34" selection-start="22021" selection-end="22021" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/send2darling.iml">
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/plugin/FetchSMSPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="17" column="89" selection-start="541" selection-end="694" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ant.properties">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="2" column="30" selection-start="81" selection-end="81" vertical-scroll-proportion="0.073891625">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="1" column="27" selection-start="66" selection-end="66" vertical-scroll-proportion="0.03816794">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="65" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/send2darling/Send2Darling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="535" selection-end="535" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/script/phonegap-1.3.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="593" column="87" selection-start="17709" selection-end="17713" vertical-scroll-proportion="-5.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/phonegap-1.3.0.jar!/com/phonegap/api/PluginResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="382" selection-end="382" vertical-scroll-proportion="-5.44">
+        <state line="42" column="39" selection-start="2456" selection-end="2456" vertical-scroll-proportion="1.5517242">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/plugins.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="1164" selection-end="1178" vertical-scroll-proportion="0.0">
+        <state line="19" column="32" selection-start="1164" selection-end="1178" vertical-scroll-proportion="0.6690141">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/practicaldeveloper/phonegap/plugins/SmsPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="1" selection-start="1421" selection-end="2288" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/script/fetchsmsplugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="104" selection-start="1155" selection-end="1248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/script/smsplugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
+        <state line="22" column="104" selection-start="1155" selection-end="1248" vertical-scroll-proportion="0.75352114">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="60" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-5.2083335">
+        <state line="49" column="14" selection-start="2494" selection-end="2494" vertical-scroll-proportion="0.42537314">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/send2darling/plugin/FetchSMSPlugin.java">
+    <entry file="file://$PROJECT_DIR$/assets/www/script/smsplugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="89" selection-start="541" selection-end="694" vertical-scroll-proportion="0.8614865">
+        <state line="22" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.5070422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/Send2Darling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/send2darling/AlarmTimerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/SmsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="30" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/NotificationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="59" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/send2darling/AlarmTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="672" selection-end="672" vertical-scroll-proportion="0.23219815">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -847,7 +809,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>homeideas</last-edited>
+          <last-edited>send2darling</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

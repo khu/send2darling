@@ -40,5 +40,12 @@
                   android:configChanges="orientation|keyboardHidden">
             <intent-filter></intent-filter>
         </activity>
+        <service android:enabled="true" android:name=".SmsService">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </service>
     </application>
+
 </manifest>
