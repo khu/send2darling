@@ -20,5 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 SmsPlugin.prototype.fetch = function (successCallback, failureCallback) {
-    return PhoneGap.exec(successCallback, failureCallback, 'FetchSMSPlugin', "Fetch", [phone, message]);
+    return PhoneGap.exec(successCallback, failureCallback, 'FetchSMSPlugin', "Fetch", []);
 };
+
+PhoneGap.addPlugin("sms", new SmsPlugin());
