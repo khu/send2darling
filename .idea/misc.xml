@@ -10,6 +10,11 @@
     <autodetection-disabled>
       <facet-type id="android">
         <modules>
+          <module name="ft">
+            <files>
+              <file url="file://$PROJECT_DIR$/ft/AndroidManifest.xml" />
+            </files>
+          </module>
           <module name="send2darling">
             <files>
               <file url="file://$PROJECT_DIR$/AndroidManifest.xml" />

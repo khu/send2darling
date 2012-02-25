@@ -28,7 +28,7 @@ public class AlarmHandler {
         dateTimes.add(morning(DateTime.now()));
         dateTimes.add(noon(DateTime.now()));
         dateTimes.add(evening(DateTime.now()));
-        dateTimes.add(DateTime.now().plusSeconds(10));
+        //dateTimes.add(DateTime.now().plusSeconds(10));
         return dateTimes;
     }
 
