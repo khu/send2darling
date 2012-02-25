@@ -23,7 +23,7 @@ $(document).bind("pageinit", function() {
     $("#send-sms").unbind();
     $("#send-sms").bind("tap", function(){
         var content = $("#sms-content").val()
-        window.plugins.sms.send("13679221357",
+        window.plugins.sms.send("XXXXX",
 	    	content,
 		    function () { $.mobile.changePage ($("#list-sms"))}, function (e) {alert('Message Failed:' + e);}
 	    );
